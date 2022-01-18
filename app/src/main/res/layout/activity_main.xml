@@ -23,18 +23,18 @@
 
     <Button
         android:background="@drawable/button_blue"
-        android:id="@+id/buSunset"
+        android:id="@+id/buSunrise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
-        android:onClick="GetSunset"
-        android:text="Get Sunset"
+        android:onClick="GetSunrise"
+        android:text="Get Sunrise"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSunSetTime" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSunRiseTime" />
 
     <TextView
-        android:id="@+id/tvSunSetTime"
+        android:id="@+id/tvSunRiseTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
